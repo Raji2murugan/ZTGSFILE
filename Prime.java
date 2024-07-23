@@ -47,7 +47,6 @@ public class Prime {
 		        return Math.abs(n - nearestPrime(n));
 		    }
 
-		    // Bubble sort implementation to sort based on the prime difference
 		    public static void bubbleSortByPrimeDifference(int[] arr) {
 		        int n = arr.length;
 		        for (int i = 0; i < n - 1; i++) {
